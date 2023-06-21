@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dev_Wholesale::wholesale_menu" title="Wholesale" module="Dev_Wholesale" sortOrder="90"
+             parent="Magento_Customer::customer"
+             action="dev_wholesale/contact/index" resource="Dev_Wholesale::contacts"/>
+    </menu>
+</config>
